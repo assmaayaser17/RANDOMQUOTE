@@ -1,0 +1,66 @@
+
+.header{
+    background-color: rgb(53, 53, 177);
+    height: 100vh;
+   
+}
+
+.container{
+    background-color: white;
+    /* background-color: rgb(171, 172, 131); */
+    border-radius: 20px !important;
+    
+}
+.header {
+    text-align: center ;
+   
+    
+}
+
+ h1 {
+    font-size: 80px !important;
+    font-family: Impact;
+    
+} 
+p {
+    font-size: 35px;
+}
+button {
+    width: 200px;
+    height: 80px;
+    background-color:black;
+    color:white;
+    border-radius: 50px !important;
+ 
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.features ul{
+     display: flex;
+    justify-content: center ; 
+}
+ .features ul li{
+    
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+     display: flex; 
+    cursor: pointer;
+    color:black;
+    list-style: none;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center ;
+    border: 2px solid black;
+    transition: all 0.3s ease;
+  }
+  ul li:is(:hover, .active){
+    color: #fff;
+     background: black; 
+  }
+ 
+ 
+  
